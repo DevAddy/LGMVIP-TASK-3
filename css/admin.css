@@ -1,0 +1,41 @@
+.container {
+  margin: auto;
+  width: 70%;
+  margin: 9.6rem;
+  padding: 2.4rem 2.4rem;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  gap: 2.4rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.log-form label {
+  font-size: 1.8rem;
+  width: 50%;
+}
+
+.log-form input {
+  padding: 0.5rem;
+  border-radius: 9px;
+}
+
+.log-form button {
+  position: absolute;
+  margin: 12.6rem 15.6rem;
+
+  padding: 1.2rem 2.4rem;
+  background: #cebffc;
+  border: none;
+  border-radius: 9px;
+}
+
+.log-btn {
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.4rem;
+}

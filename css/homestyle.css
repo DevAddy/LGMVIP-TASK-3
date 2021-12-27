@@ -1,0 +1,27 @@
+h1 {
+  font-size: 2.4rem;
+  margin-top: 1.2rem;
+  text-align: center;
+}
+
+.data-table {
+  border: 5px solid #422f7c;
+  max-width: 80rem;
+  margin: auto;
+  padding: 0.6rem;
+  border-spacing: 2rem;
+  border-radius: 9px;
+  margin-top: 4.8rem;
+  margin-bottom: 9.6rem;
+}
+
+.data-table th {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.data-table td {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+}

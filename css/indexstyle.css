@@ -1,0 +1,40 @@
+.navbar {
+  padding: 1.2rem 2.4rem;
+  background-color: #5c42ad;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.link-list {
+  list-style: none;
+  font-size: 1.2rem;
+
+  display: flex;
+  gap: 2.4rem;
+}
+
+.linked:link,
+.linked:active,
+.linked:hover {
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logout-btn:link,
+.logout-btn:active,
+.logout-btn:hover {
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  background-color: #f03e3e;
+  color: #fff;
+  text-decoration: none;
+}

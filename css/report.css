@@ -1,0 +1,34 @@
+.report-card {
+  border: 5px solid #422f7c;
+  max-width: 80rem;
+  margin: auto;
+  border-spacing: 2rem;
+  border-radius: 9px;
+  margin-bottom: 9.6rem;
+}
+
+.report-card th {
+  font-size: 2.4rem;
+  width: 20rem;
+  font-weight: 600;
+}
+
+.report-card td {
+  font-size: 1.8rem;
+  width: 20rem;
+  font-weight: 500;
+}
+
+.row {
+  text-align: center;
+}
+
+.print-btn {
+  font-size: 1.8rem;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 9px;
+  background-color: #f03e3e;
+  color: #fff;
+  font-weight: 600;
+}

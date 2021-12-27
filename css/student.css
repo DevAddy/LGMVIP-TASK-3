@@ -1,0 +1,53 @@
+.container {
+  margin: auto;
+  width: 70%;
+  padding: 2.4rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+
+.student-entry-form label,
+.class-entry-form label,
+.result-entry-form label,
+.view-result-form label {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.student-entry-form select,
+.class-entry-form select,
+.result-entry-form select,
+.view-result-form select {
+  padding: 0.5rem 0;
+  border-radius: 9px;
+}
+
+.student-entry-form input,
+.class-entry-form input,
+.result-entry-form input,
+.view-result-form input {
+  padding: 0.5rem 0;
+}
+
+.submit-btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 16px;
+  font-size: 1.8rem;
+  padding: 0.6rem 1.2rem !important;
+  background-color: #422f7c;
+  color: #fff;
+  font-weight: 600;
+}
+
+.marks-table {
+  margin: auto;
+  width: 70%;
+  padding: 2.4rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+}
